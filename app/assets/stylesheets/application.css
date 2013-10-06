@@ -11,3 +11,14 @@
  *= require_self
  *= require_tree .
  */
+body {
+	padding-top: 40px;
+}
+
+/*.navbar-inner {
+	background-image: -webkit-linear-gradient(top, #FFF, #FCFCFC) !important;
+	background-image: -moz-linear-gradient(top, #FFF 0%, #FCFCFC 100%) !important;
+	background-image: -o-linear-gradient(top, #FFF, #FCFCFC) !important;
+	background-image: -ms-linear-gradient(top, #FFF, #FCFCFC) !important;
+}
+*/
