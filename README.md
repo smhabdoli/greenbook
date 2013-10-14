@@ -9,7 +9,6 @@ In Chapter 3, Jason talks about `attr_accessible` fields which have been deprica
 1. Add a shorthand if only going to be using one devise model as follows:
 
 	```ruby
-
 	class ApplicationController < ActionController::Base
 		before_filter :configure_permitted_parameters, if: :devise_controller?
 
